@@ -1,0 +1,121 @@
+.maincontent-about {
+display: grid;
+}
+
+.welcome {
+    height: 50vh;
+    background-color: var(--bg-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+/* Grid */
+.content-grid {
+    align-items: center;
+    display: grid;
+    gap: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    min-width: 250px;
+    margin: auto;
+}
+
+.grid1 {
+    margin-right: 60px;
+    flex-basis: 50%;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.grid1-txt {
+    text-align: justify;
+    padding-bottom: 60px;
+    font-size: 16px;
+}
+
+.grid-toptext {
+    padding-bottom: 60px;
+    color: rgba(25, 30, 48, 0.4);
+    font-size: 16px;
+}
+
+.content-grid h2 {
+    padding-bottom: 20px;
+    font-weight: normal;
+    line-height: 1.22;
+    color: rgb(25, 30, 48);
+    margin: 0px;
+}
+
+.grid2 {
+    max-width: 32rem;
+    flex-basis: 50%;
+
+}
+
+.grid2 img {
+    height: auto; 
+    width: auto; 
+    max-width: 500px; 
+    max-height: 500px;
+}
+
+.grid3 {
+    max-width: 32rem;
+    flex-basis: 50%;
+
+}
+
+.grid3 img {
+    height: auto; 
+    width: auto; 
+    max-width: 500px; 
+    max-height: 500px;
+}
+
+.grid4 {
+    margin-left: 60px;
+    flex-basis: 50%;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+/* End Grid */
+
+.about-trainers{
+    max-width: 1200px;
+    min-width: 250px;
+    margin: auto;
+}
+
+.about-trainers-head {
+    display: flex;
+    margin-top: 200px;
+}
+
+.about-trainers img {
+    margin-top: 150px;
+    height: auto; 
+    width: auto; 
+    max-width: 1200px; 
+    max-height: 800px;
+}
+
+.about-trainers-title {
+    display: block;
+    margin-right: 80px;
+    min-width: 50%;
+}
+
+#trainers-toptext {
+    padding-bottom: 30px;
+    color: rgba(25, 30, 48, 0.4);
+    font-size: 16px;
+    text-align: justify;
+}
+
+#trainers-righttext {
+    text-align: justify;
+    padding-top: 50px;
+}
