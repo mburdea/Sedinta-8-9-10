@@ -57,9 +57,7 @@ display: grid;
 
 .grid2 img {
     height: auto; 
-    width: auto; 
-    max-width: 500px; 
-    max-height: 500px;
+    max-width: 100%; 
 }
 
 .grid3 {
@@ -70,9 +68,7 @@ display: grid;
 
 .grid3 img {
     height: auto; 
-    width: auto; 
-    max-width: 500px; 
-    max-height: 500px;
+    max-width: 100%;
 }
 
 .grid4 {
@@ -97,9 +93,7 @@ display: grid;
 .about-trainers img {
     margin-top: 150px;
     height: auto; 
-    width: auto; 
-    max-width: 1200px; 
-    max-height: 800px;
+    max-width: 100%;
 }
 
 .about-trainers-title {
